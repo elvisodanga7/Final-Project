@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MySite — About</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">MySite</a>
+      <button id="nav-toggle-2" class="nav-toggle" aria-label="Toggle navigation">
+        ☰
+      </button>
+      <nav id="main-nav-2" class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" aria-current="page">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container content">
+    <section class="about-hero">
+      <h1>About this project</h1>
+      <p class="lead">This multi-page site demonstrates semantic HTML, responsive CSS, and JavaScript-powered interactivity.</p>
+    </section>
+
+    <section class="mission-grid">
+      <article class="mission">
+        <h2>Mission</h2>
+        <p>To demonstrate a clean, maintainable project structure and modern frontend techniques for an assignment.</p>
+      </article>
+
+      <article class="team">
+        <h2>Team (sample)</h2>
+        <div class="team-grid">
+          <div class="member">
+            <img src="images/avatar-1.jpg" alt="Avatar of developer" />
+            <h3>Elvis O.</h3>
+            <p>Frontend developer — HTML/CSS/JS</p>
+          </div>
+          <div class="member">
+            <img src="images/avatar-2.jpg" alt="Avatar of designer" />
+            <h3>K. G.</h3>
+            <p>Design & content</p>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year-2"></span> MySite</p>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

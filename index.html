@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MySite — Home</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">MySite</a>
+
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
+        ☰
+      </button>
+
+      <nav id="main-nav" class="main-nav">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1>Build modern, responsive websites.</h1>
+          <p class="lead">A small demo multi-page site using HTML5, CSS3 and JavaScript. Fully responsive and accessible.</p>
+          <p><a class="btn" href="about.html">Learn more</a></p>
+        </div>
+
+        <!-- Image slider -->
+        <div class="slider" aria-label="Featured images">
+          <div class="slides">
+            <img src="images/slide-1.png" alt="Office workspace with laptop" class="slide active" />
+            <img src="images/slide-2.png" alt="Team collaborating" class="slide" />
+            <img src="images/slide-3.png" alt="Modern desk view" class="slide" />
+          </div>
+          <div class="slider-controls">
+            <button class="prev" aria-label="Previous slide">‹</button>
+            <button class="next" aria-label="Next slide">›</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="container features" id="features">
+      <h2>What you'll find here</h2>
+      <div class="features-grid">
+        <article class="feature">
+          <h3>Responsive design</h3>
+          <p>Layouts that adapt to any screen using Flexbox and Grid.</p>
+        </article>
+
+        <article class="feature">
+          <h3>Interactivity</h3>
+          <p>Image slider, mobile navigation and contact form validation with JavaScript.</p>
+        </article>
+
+        <article class="feature">
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> MySite — Built for the assignment</p>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
